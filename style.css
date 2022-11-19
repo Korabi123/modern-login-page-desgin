@@ -11,6 +11,17 @@ body{
     align-items: center;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 /* Login Card */
 .login-card {
     width: 450px;
@@ -201,4 +212,4 @@ body{
         padding: 2rem;
     }
 }
-/* ---------------------------------- *
+/* ---------------------------------- */
